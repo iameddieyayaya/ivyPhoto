@@ -54,11 +54,16 @@ html {
 }
 
 .nav-link {
+  font-weight: bolder;
   color: white !important;
 }
 
 .navbar-brand {
   filter: invert(100%);
+}
+
+.nav-link:hover {
+  color: #21c67f !important;
 }
 
 /* Social Media */
@@ -119,6 +124,10 @@ html {
   max-height: 400px;
 }
 
+.marketing p {
+  text-align: left;
+}
+
 /* Featurettes
 ------------------------- */
 
@@ -138,6 +147,20 @@ html {
   display: none;
 }
 
+/* Contact ME
+-------------------------------------------------- */
+
+.form-group label {
+  padding-right: 15px;
+}
+
+.submit-btn {
+  padding: 10px;
+  background-color: #21c67f;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 
