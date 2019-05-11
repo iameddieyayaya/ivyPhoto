@@ -39,7 +39,7 @@ html {
 }
 .carousel-item > img {
   position: absolute;
-  top: 0;
+  top: 9vh;
   left: 0;
   min-width: 100%;
   height: auto;
@@ -194,5 +194,18 @@ html {
 @media (min-width: 62em) {
   .featurette-heading {
     margin-top: 7rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  /* Carousel base class */
+  .carousel {
+    margin-bottom: -2rem;
+  }
+}
+@media only screen and (max-width: 435px) {
+  /* Carousel base class */
+  .carousel {
+    margin-bottom: -10rem;
   }
 }
