@@ -154,12 +154,26 @@ html {
   padding-right: 15px;
 }
 
+.form-group input {
+  padding: 5px;
+}
 .submit-btn {
   padding: 10px;
   background-color: #21c67f;
   border: none;
   color: #fff;
   cursor: pointer;
+}
+
+.contact-header {
+  padding-bottom: 10px;
+}
+
+/* PAGE DIVIDER
+-------------------------------------------------- */
+
+.featurette-divider {
+  background-color: rgba(198, 33, 104, 1);
 }
 /* RESPONSIVE CSS
 -------------------------------------------------- */
